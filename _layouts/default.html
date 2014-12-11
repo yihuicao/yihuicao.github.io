@@ -42,26 +42,29 @@
     <header class="inner">
       {% if page.url == '/cn/index.html' %}
       <nav>
-        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">关于</a>
+        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">首页</a>
         <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">项目</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
         <!--<a href="/resume/">简历</a>-->
-        <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">出版</a>
-        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
+        <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">文章</a>
+        
+		<!--<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>-->
         <!--<a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>-->
 		<!--<a href="https://jinshuju.net/f/b3L2Be">雇佣</a>-->
-        <a href="https://github.com/willard-yuan">Github</a>
+        <!--<a href="https://github.com/willard-yuan">Github</a>-->
       </nav>
       {% else %}
       <nav>
-        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">Home</a>
         <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
 		<!--<a href="/resume/">Resume</a>-->
         <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">Publication</a>
-        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
-        <!--<a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>-->
+        <!--
+		<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+        <a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>
         <a href="https://github.com/willard-yuan">Github</a>
+		-->
       </nav>
       {% endif %}
       
@@ -94,7 +97,7 @@
     <footer>
 
     <p class="linkings">
-        Friends Links: <a href="http://yongyuan.name/">Yuan Yong</a>&nbsp&nbsp&nbsp&nbsp<a href="http://raphael-mou.github.io/">Lichao Mou</a>&nbsp&nbsp&nbsp&nbsp<a href="http://haobo-lv.github.io/">Haobo Lv</a>
+        Friends Links: <a href="http://yongyuan.name/">Yong Yuan</a>&nbsp&nbsp&nbsp&nbsp<a href="http://raphael-mou.github.io/">Lichao Mou</a>&nbsp&nbsp&nbsp&nbsp<a href="http://haobo-lv.github.io/">Haobo Lv</a>
     </p>
 	
 	<!--
