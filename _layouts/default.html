@@ -56,10 +56,10 @@
       {% else %}
       <nav>
         <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">Home</a>
-        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
+        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Projections</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
 		<!--<a href="/resume/">Resume</a>-->
-        <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">Publication</a>
+        <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">Publications</a>
         <!--
 		<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
         <a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>
@@ -71,9 +71,9 @@
       <div class="pull-right right logo">
         <div class="name">
 			  {% if page.url == '/cn/index.html' %}
-                <a 曹一挥</a><br />
+                <a href="/cn">曹一挥</a><br />
               {% else %}
-                <a Yihui Cao</a><br />
+                <a href="/">Yihui Cao</a><br />
               {% endif %}
           <!--<a href="/">Yihui Cao</a><br />-->
           <small>
