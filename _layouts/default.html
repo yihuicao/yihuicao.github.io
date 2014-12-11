@@ -70,7 +70,12 @@
       
       <div class="pull-right right logo">
         <div class="name">
-          <a href="/">Yihui Cao</a><br />
+			{% if page.url == '/cn/index.html' %}
+                <a href="/cn">曹一挥</a>
+              {% else %}
+                <a href="/">Yihui</a>
+              {% endif %}
+          <!--<a href="/">Yihui Cao</a><br />-->
           <small>
             <em>
               {% if page.url == '/cn/index.html' %}
@@ -97,7 +102,7 @@
     <footer>
 
     <p class="linkings">
-        Friends Links: <a href="http://yongyuan.name/">Yong Yuan</a>&nbsp&nbsp&nbsp&nbsp<a href="http://raphael-mou.github.io/">Lichao Mou</a>&nbsp&nbsp&nbsp&nbsp<a href="http://haobo-lv.github.io/">Haobo Lv</a>
+        Friends: <a href="http://yongyuan.name/">Yong Yuan</a>&nbsp&nbsp&nbsp&nbsp<a href="http://raphael-mou.github.io/">Lichao Mou</a>&nbsp&nbsp&nbsp&nbsp<a href="http://haobo-lv.github.io/">Haobo Lv</a>
     </p>
 	
 	<!--
