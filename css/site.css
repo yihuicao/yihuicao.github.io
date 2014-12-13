@@ -104,12 +104,13 @@ table td, table th {
 /* Common */
 
 a {
-  color: #222;
+  color: #000000;
   text-decoration: none;
 }
 
 a:active {
-  color: #33ccff;
+	color: #000000;
+  /*color: #33ccff;*/
 }
 
 a:visited {
